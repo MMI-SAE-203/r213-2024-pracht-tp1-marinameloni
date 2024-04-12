@@ -14,7 +14,7 @@ const menuIsOpen = ref(false);
     <button
       aria-controls="mainNav"
       aria-expanded="menuIsOpen"
-      class="rounded-full border-2 border-red-600 bg-red-300 px-2"
+      class="rounded-full border-2 border-black bg-orange-500 px-2"
       @pointerdown="menuIsOpen = !menuIsOpen">
       menu
     </button>
@@ -24,7 +24,7 @@ const menuIsOpen = ref(false);
       enter-to-class="translate-x-0"
       leave-active-class="-translate-x-full"
     >
-      <nav id="mainNav" v-show="menuIsOpen">
+     <nav id="mainNav" v-show="menuIsOpen" class="bg-orange-300 p-2 rounded-lg">
         <ul>
           <li><router-link to="/" class="text-red-500 underline"> Accueil </router-link></li>
           <li><router-link to="/accordeon" class="text-red-500 underline"> Accordéon </router-link></li>

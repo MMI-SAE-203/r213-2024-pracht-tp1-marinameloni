@@ -18,8 +18,8 @@ onErrorCaptured((err, instance, info) => {
   </button>
 <nav id="mainNav">
   <ul>
-    <li><RouterLink to="@/pages/index.vue" class="text-red-500 underline"> Accueil </RouterLink></li>
-    <li><RouterLink to="@/pages/accordeon.vue" class="text-red-500 underline"> Accordéon </RouterLink></li>
+        <li><router-link to="/" class="text-red-500 underline"> Accueil </router-link></li>
+        <li><router-link to="/accordeon" class="text-red-500 underline"> Accordéon </router-link></li>
     <li><a href="#">item 3</a></li>
   </ul>
 </nav>

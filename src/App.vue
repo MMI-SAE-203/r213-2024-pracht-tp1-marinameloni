@@ -28,7 +28,7 @@ const menuIsOpen = ref(false);
         <ul>
           <li><router-link to="/" class="text-red-500 underline"> Accueil </router-link></li>
           <li><router-link to="/accordeon" class="text-red-500 underline"> Accordéon </router-link></li>
-          <li><a href="#">item 3</a></li>
+          <li><router-link to="/boucle" class="text-red-500 underline"> Boucle </router-link></li>
         </ul>
       </nav>
     </Transition>
